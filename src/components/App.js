@@ -7,7 +7,7 @@ import PageLayout from "./PageLayout";
 const App = () => {
 
   let Header=<h1>Welcome to my website</h1>;
-  let Footer=<p>©2023 My Website.All rights reserved</p>;
+  let Footer=<div>©2023 My Website.All rights reserved.</div>;
 
   return (
 
