@@ -1,13 +1,13 @@
 import React, { Children } from 'react'
 
 
-const PageLayout = ({Header,Footer,children}) => {
-    console.log(Header)
+const PageLayout = ({header,footer,children}) => {
+   
   return (
     <div>
-        {Header}
+        {header}
         {children}
-        {Footer}
+        {footer}
     </div>
   )
 }
